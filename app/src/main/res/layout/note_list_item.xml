@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_marginBottom="10dp"
+    android:paddingBottom="10dp"
+    android:layout_width="match_parent"
+    android:background="@color/colorWhite"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/tv_note_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/crimsontext_regular"
+        android:text="Title"
+        android:textColor="@color/dot_dark_screen2"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_note_dialog_description"
+        android:layout_width="0dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/crimsontext_regular"
+        android:textSize="18sp"
+        android:maxLines="8"
+        android:ellipsize="end"
+        android:textColor="@color/dot_dark_screen2"
+        android:text="Ginger, short hair neatly coiffured to reveal a lean, menacing face. Darting green eyes, set delicately within their sockets, watch vigorously over the families they've grieved with for so long. A moustache and goatee elegantly compliments his nose and leaves an intriguing memory of his fortunate upbringing. This is the face of Jamal Davenport, a true dreamer among giants. He stands alluringly among others, despite his scraggy frame."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_note_title" />
+
+    <TextView
+        android:id="@+id/tv_note_timestamp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="40dp"
+        android:textColor="@color/colorPrimary"
+        android:fontFamily="@font/crimsontext_regular"
+        android:text="July 11, 9:22 AM"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_note_dialog_description" />
+
+</android.support.constraint.ConstraintLayout>

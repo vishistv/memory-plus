@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/round_edittext_ns"
+        android:state_pressed="true" />
+
+    <item android:state_focused="true"
+        android:drawable="@drawable/round_edittext_s" />
+
+    <item android:drawable="@drawable/round_edittext_ns"/>
+
+</selector>

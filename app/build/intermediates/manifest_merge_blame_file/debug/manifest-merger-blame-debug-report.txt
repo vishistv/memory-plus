@@ -1,0 +1,121 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.vishistvarugeese.memory"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="27" />
+9-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+11-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:6:5-80
+11-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:6:22-77
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:7:5-81
+12-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:7:22-78
+13    <uses-permission android:name="android.permission.CALL_PHONE" />
+13-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:8:5-69
+13-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:8:22-66
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:9:5-67
+14-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:9:22-64
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:10:5-65
+15-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:10:22-62
+16
+17    <uses-feature
+17-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:12:5-14:35
+18        android:name="android.hardware.camera.any"
+18-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:13:9-51
+19        android:required="true" />
+19-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:14:9-32
+20    <uses-feature
+20-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:15:5-17:36
+21        android:name="android.hardware.camera.autofocus"
+21-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:16:9-57
+22        android:required="false" />
+22-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:17:9-33
+23
+24    <application
+24-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:19:5-58:19
+25        android:allowBackup="true"
+25-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:20:9-35
+26        android:debuggable="true"
+27        android:icon="@mipmap/ic_launcher"
+27-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:21:9-43
+28        android:label="@string/app_name"
+28-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:22:9-41
+29        android:largeHeap="true"
+29-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:23:9-33
+30        android:roundIcon="@mipmap/ic_launcher_round"
+30-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:24:9-54
+31        android:supportsRtl="true"
+31-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:25:9-35
+32        android:testOnly="true"
+33        android:theme="@style/AppTheme" >
+33-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:26:9-40
+34        <activity android:name="com.example.vishistvarugeese.memory.NotesActivity" >
+34-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:28:9-30:20
+34-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:28:19-48
+35        </activity>
+36        <activity android:name="com.example.vishistvarugeese.memory.DashboardActivity" >
+36-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:31:9-33:20
+36-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:31:19-52
+37        </activity>
+38        <activity android:name="com.example.vishistvarugeese.memory.ProfileActivity" />
+38-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:34:9-53
+38-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:34:19-50
+39        <activity android:name="com.example.vishistvarugeese.memory.DetailsActivity" />
+39-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:35:9-53
+39-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:35:19-50
+40        <activity android:name="com.example.vishistvarugeese.memory.EmergencyContactActivity" />
+40-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:36:9-62
+40-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:36:19-59
+41        <activity android:name="com.example.vishistvarugeese.memory.EditAdd_ContactActivity" />
+41-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:37:9-61
+41-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:37:19-58
+42        <activity android:name="com.example.vishistvarugeese.memory.FaceRecognitionActivity" />
+42-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:38:9-61
+42-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:38:19-58
+43
+44        <provider
+44-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:40:9-48:20
+45            android:name="android.support.v4.content.FileProvider"
+45-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:41:13-67
+46            android:authorities="com.example.vishistvarugeese.memory.fileprovider"
+46-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:42:13-83
+47            android:exported="false"
+47-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:43:13-37
+48            android:grantUriPermissions="true" >
+48-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:44:13-47
+49            <meta-data
+49-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:45:13-47:54
+50                android:name="android.support.FILE_PROVIDER_PATHS"
+50-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:46:17-67
+51                android:resource="@xml/file_paths" />
+51-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:47:17-51
+52        </provider>
+53
+54        <activity android:name="com.example.vishistvarugeese.memory.SplashActivity" >
+54-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:50:9-56:20
+54-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:50:19-49
+55            <intent-filter>
+55-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:51:13-55:29
+56                <action android:name="android.intent.action.MAIN" />
+56-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:52:17-69
+56-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:52:25-66
+57
+58                <category android:name="android.intent.category.LAUNCHER" />
+58-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:54:17-77
+58-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:54:27-74
+59            </intent-filter>
+60        </activity>
+61        <activity android:name="com.example.vishistvarugeese.memory.IntroSliderActivity" />
+61-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:57:9-57
+61-->G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:57:19-54
+62    </application>
+63
+64</manifest>

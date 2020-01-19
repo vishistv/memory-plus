@@ -1,0 +1,308 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorWhite">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M E M O R Y "
+            android:textSize="20dp"
+            android:fontFamily="@font/sansationbold"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_title" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="+"
+            android:textSize="25dp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/sansationbold"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/toolbar_plus" />
+
+
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/grey1"/>
+
+    <android.support.v4.widget.DrawerLayout
+        android:id="@+id/drawer"
+        android:background="@color/colorWhite"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        tools:context=".DashboardActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="20dp"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:id="@+id/image"
+                        android:layout_marginBottom="5dp"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:visibility="invisible"
+                        android:layout_marginLeft="10dp"
+                        android:src="@drawable/ic_circuit"/>
+
+                    <TextView
+                        android:id="@+id/tv1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="30dp"
+                        android:fontFamily="@font/crimsontext_regular"
+                        android:visibility="invisible"
+                        android:text="Hi, \nHaving trouble remembering something?\n"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:visibility="invisible"
+                        android:id="@+id/tv2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="30dp"
+                        android:fontFamily="@font/crimsontext_regular"
+                        android:text="Open profile to know more about yourself"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/btnProfile"
+                        android:visibility="invisible"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginBottom="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:background="@drawable/custom_round_button"
+                        android:fontFamily="@font/crimsontext_regular"
+                        android:minHeight="0dp"
+                        android:onClick="OnProfileClick"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="5dp"
+                        android:stateListAnimator="@null"
+                        android:text="PROFILE"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv3"
+                        android:visibility="invisible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/crimsontext_regular"
+                        android:text="Maybe you want to contact someone you know?"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/btnContact"
+                        android:visibility="invisible"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/custom_round_button"
+                        android:fontFamily="@font/crimsontext_regular"
+                        android:minHeight="0dp"
+                        android:onClick="OnEmergencyContactClick"
+                        android:stateListAnimator="@null"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:paddingTop="5dp"
+                        android:text="EMERGENCY CONTACT"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv4"
+                        android:visibility="invisible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/crimsontext_regular"
+                        android:text="Think you know someone. Try identifying them"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/btnIdentifyPeople"
+                        android:visibility="invisible"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="10dp"
+                        android:background="@drawable/custom_round_button"
+                        android:fontFamily="@font/crimsontext_regular"
+                        android:minHeight="0dp"
+                        android:onClick="OnIdentifyPeopleClick"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:stateListAnimator="@null"
+                        android:paddingRight="20dp"
+                        android:paddingTop="5dp"
+                        android:text="IDENTIFY PEOPLE"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tv5"
+                        android:visibility="invisible"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="30dp"
+                        android:layout_marginLeft="20dp"
+                        android:fontFamily="@font/crimsontext_regular"
+                        android:text="Wrote a note or wanna write one?"
+                        android:textColor="@color/colorBlack"
+                        android:textSize="25sp" />
+
+                    <Button
+                        android:id="@+id/btnNotes"
+                        android:visibility="invisible"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginBottom="50dp"
+                        android:background="@drawable/custom_round_button"
+                        android:fontFamily="@font/crimsontext_regular"
+                        android:minHeight="0dp"
+                        android:onClick="OnNotesClick"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="20dp"
+                        android:stateListAnimator="@null"
+                        android:paddingRight="20dp"
+                        android:paddingTop="5dp"
+                        android:text="NOTES"
+                        android:textColor="@color/colorPrimary"
+                        android:textSize="15sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </ScrollView>
+
+        </LinearLayout>
+
+        <com.github.clans.fab.FloatingActionMenu
+            android:id="@+id/menu"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:paddingRight="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            fab:menu_labels_ellipsize="end"
+            fab:menu_labels_singleLine="true"
+            fab:menu_labels_style="@style/MenuLabelsStyle"
+            fab:menu_backgroundColor="#ccffffff"
+            fab:menu_colorNormal="@color/fab_grey3"
+            fab:menu_colorPressed="@color/fab_grey4"
+            fab:menu_colorRipple="@color/fab_grey5">
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/profile"
+                android:onClick="OnProfileClick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_profile_24dp"
+                fab:fab_size="mini"
+                fab:fab_label="Profile"
+                style="@style/MenuButtonsStyle"/>
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/speed_dial"
+                android:onClick="OnEmergencyContactClick"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_speed_dial_24dp"
+                fab:fab_size="mini"
+                fab:fab_label="Emergency Contact"
+                style="@style/MenuButtonsStyle"/>
+
+            <com.github.clans.fab.FloatingActionButton
+                android:id="@+id/face_recognition"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="OnIdentifyPeopleClick"
+                android:src="@drawable/ic_face_recognition_24dp"
+                fab:fab_size="mini"
+                fab:fab_label="Identify People"
+                style="@style/MenuButtonsStyle"/>
+
+            <!--<com.github.clans.fab.FloatingActionButton-->
+                <!--android:id="@+id/notes"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:src="@drawable/ic_notes_24dp"-->
+                <!--fab:fab_size="mini"-->
+                <!--fab:fab_label="My Notes"-->
+                <!--style="@style/MenuButtonsStyle"/>-->
+
+        </com.github.clans.fab.FloatingActionMenu>
+
+        <android.support.design.widget.NavigationView
+            android:id="@+id/navgation"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="@color/colorWhite"
+            app:itemIconTint="@color/colorPrimary"
+            app:menu='@menu/nav_items'
+            android:scrollbars="vertical"
+            android:layout_gravity="start" />
+
+    </android.support.v4.widget.DrawerLayout>
+
+</LinearLayout>

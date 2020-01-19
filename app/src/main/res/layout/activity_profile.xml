@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue2"
+    tools:context=".ProfileActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:elevation="2dp"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorWhite">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ib_back_button"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:onClick="onBackPressed"
+                android:src="@drawable/ic_keyboard_arrow_left_blue_24dp"
+                android:background="?selectableItemBackgroundBorderless"
+                />
+
+            <TextView
+                android:id="@+id/toolbar_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/sansationbold"
+                android:text="P R O F I L E"
+                android:textSize="20dp" />
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="19dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_edit_blue_24dp"
+                android:onClick="onEditDetailsClick"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <android.support.v7.widget.CardView
+            xmlns:card_view="http://schemas.android.com/apk/res-auto"
+            android:layout_marginTop="8dp"
+            card_view:contentPaddingLeft="20dp"
+            card_view:contentPaddingRight="20dp"
+            card_view:contentPaddingTop="20dp"
+            card_view:contentPaddingBottom="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:src="@drawable/dp"/>
+
+                    <LinearLayout
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center_vertical">
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Vishist Varugeese"
+                            android:fontFamily="@font/crimsontext_regular"
+                            android:textColor="@color/colorBlack"
+                            android:textSize="20dp" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Studying at VIT Vellore"
+                            android:fontFamily="@font/crimsontext_regular"
+                            android:textColor="@color/grey4"
+                            android:textSize="15dp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="@color/blue2"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:textColor="@color/colorBlack"
+                        android:fontFamily="@font/crimsontext_regular"
+                        android:textSize="18dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Status:"/>
+
+                    <TextView
+                        android:layout_marginLeft="10dp"
+                        android:maxLines="3"
+                        android:textColor="@color/grey4"
+                        android:fontFamily="@font/crimsontext_regular"
+                        android:textSize="17dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Currently developing an app"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:weightSum="3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="30dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_gravity="center"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_call_blue_24dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="25dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9442799642"
+                        android:fontFamily="@font/crimsontext_regular"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorBlack"
+                        android:layout_gravity="center"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_gravity="center"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_my_location_black_24dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="25dp"
+                        android:layout_width="wrap_content"
+                        android:maxLines="3"
+                        android:layout_height="wrap_content"
+                        android:text="Room No. 212, K Block, Men's Hostel, VIT, Vellore - 632014"
+                        android:fontFamily="@font/crimsontext_regular"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorBlack"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_weight="1"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="30dp"
+                    android:paddingRight="30dp"
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="25dp"
+                        android:layout_gravity="center"
+                        android:layout_height="25dp"
+                        android:src="@drawable/ic_cake_blue_24dp"/>
+
+                    <TextView
+                        android:layout_marginLeft="25dp"
+                        android:layout_width="wrap_content"
+                        android:maxLines="3"
+                        android:layout_height="wrap_content"
+                        android:text="01/01/1998"
+                        android:fontFamily="@font/crimsontext_regular"
+                        android:textSize="17dp"
+                        android:textColor="@color/colorBlack"
+                        android:layout_gravity="center"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_marginTop="25dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Description: "
+                    android:fontFamily="@font/crimsontext_regular"
+                    android:textSize="15dp"
+                    android:textColor="@color/grey3" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Ginger, short hair neatly coiffured to reveal a lean, menacing face. Darting green eyes, set delicately within their sockets, watch vigorously over the families they've grieved with for so long. A moustache and goatee elegantly compliments his nose and leaves an intriguing memory of his fortunate upbringing. This is the face of Jamal Davenport, a true dreamer among giants. He stands alluringly among others, despite his scraggy frame."
+                    android:fontFamily="@font/crimsontext_regular"
+                    android:textSize="17dp"
+                    android:textColor="@color/colorBlack"
+                    android:layout_gravity="center"/>
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+
+    </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

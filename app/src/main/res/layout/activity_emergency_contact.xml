@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EmergencyContactActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:elevation="2dp"
+        android:minHeight="?attr/actionBarSize"
+        android:background="@color/colorWhite">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ib_back_button"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:onClick="onBackPressed"
+                android:src="@drawable/ic_keyboard_arrow_left_blue_24dp"
+                android:background="?selectableItemBackgroundBorderless"
+                />
+
+            <TextView
+                android:id="@+id/toolbar_profile"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:fontFamily="@font/sansationbold"
+                android:text="C O N T A C T S"
+                android:textSize="20dp" />
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="19dp"
+                android:background="?selectableItemBackgroundBorderless"
+                android:src="@drawable/ic_person_add_black_24dp"
+                android:onClick="onAddContacts"/>
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.Toolbar>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/grey3"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="3dp"
+        android:gravity="center"
+        android:background="@color/blue4">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/ic_error_outline_red"
+            android:layout_marginRight="5dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CLICK TO CALL"
+            android:textSize="13dp"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="@font/crimsontext_regular"
+            />
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height="0.5dp"
+        android:background="@color/grey3"/>
+
+    <LinearLayout
+        android:id="@+id/no_contacts"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_marginTop="40dp"
+            android:layout_width="150dp"
+            android:layout_height="100dp"
+            android:src="@drawable/ic_404"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/crimsontext_regular"
+            android:textSize="15dp"
+            android:text="NO CONTACTS AVAILABLE"
+            android:textColor="@color/grey3"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/crimsontext_regular"
+            android:textSize="17dp"
+            android:text="Please add a few emergency contacts"
+            android:textColor="@color/grey3"
+            />
+
+    </LinearLayout>
+
+
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contact_list"/>
+
+
+</LinearLayout>
