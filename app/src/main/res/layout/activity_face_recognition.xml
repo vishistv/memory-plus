@@ -61,7 +61,7 @@
                 android:layout_width="0.5dp"
                 android:layout_height="match_parent"
                 android:layout_marginBottom="10dp"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="15dp"
                 android:layout_marginTop="10dp"
                 android:background="@color/grey3" />
 
@@ -71,14 +71,14 @@
                 android:padding="10dp"
                 android:onClick="onRecognizeFaceClick"
                 android:clickable="true"
-                android:layout_marginLeft="40dp"
+                android:layout_marginLeft="30dp"
                 android:gravity="center"
                 android:background="@drawable/custom_round_button"
                 android:orientation="vertical">
 
                 <ImageView
-                    android:layout_width="35dp"
-                    android:layout_height="35dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
                     android:src="@drawable/ic_face_recognition"/>
 
                 <TextView
@@ -88,10 +88,9 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/crimsontext_regular"
-                    android:textSize="12dp"
+                    android:textSize="12sp"
                     android:text="RECOGNIZE PEOPLE"
                     android:textStyle="bold"/>
-
 
             </LinearLayout>
 
@@ -100,13 +99,14 @@
                 android:layout_height="100dp"
                 android:padding="10dp"
                 android:onClick="onRegisterFaceClick"
-                android:layout_marginLeft="20dp"
+                android:layout_marginLeft="10dp"
                 android:clickable="true"
                 android:gravity="center"
                 android:background="@drawable/custom_round_button"
                 android:orientation="vertical">
 
                 <ImageView
+                    android:scaleType="fitXY"
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:src="@drawable/ic_group_add_black_24dp"/>
@@ -114,11 +114,10 @@
                 <TextView
                     android:gravity="center"
                     android:textColor="@color/grey3"
-                    android:layout_marginTop="5dp"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:fontFamily="@font/crimsontext_regular"
-                    android:textSize="12.5dp"
+                    android:textSize="12.5sp"
                     android:text="REGISTER FACE"
                     android:textStyle="bold"/>
 

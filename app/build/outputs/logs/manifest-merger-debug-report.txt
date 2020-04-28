@@ -1,246 +1,250 @@
 -- Merging decision tree log ---
 manifest
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:2:1-60:12
-MERGED from [com.android.support:design:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\1a565d561e73523cfde93032b5e4f241\design-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:appcompat-v7:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\96ec3159e9cdafe31c960eb8eede719e\appcompat-v7-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [io.agora.rtc:voice-sdk:2.0.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\3895a62616a96ec0b2e340f256af6edc\voice-sdk-2.0.0\AndroidManifest.xml:2:1-15:12
-MERGED from [com.android.support:cardview-v7:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\269ee0dea52177bd7d346753b02cc344\cardview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\4c43f906abd2b69edf7da5c5ee7356a3\constraint-layout-1.1.2\AndroidManifest.xml:2:1-11:12
-MERGED from [com.github.bumptech.glide:glide:4.8.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\5f04d3fe801adf8fcd724175f5d9f9e7\glide-4.8.0\AndroidManifest.xml:2:1-12:12
-MERGED from [com.github.clans:fab:1.6.4] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\397e8d3d20586c4bdef56307d4106167\fab-1.6.4\AndroidManifest.xml:2:1-14:12
-MERGED from [de.hdodenhof:circleimageview:2.1.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\6e33ef95cf61799d6e2ea838a8eca78a\circleimageview-2.1.0\AndroidManifest.xml:2:1-11:12
-MERGED from [android.arch.lifecycle:livedata:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\b5f1a18436322a4d6243b4d563cfece4\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence.room:runtime:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\24a8895932b1f34b0ccac98ae77a2bed\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-v4:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\b85946afde5a43ea608eda5eccc7d9e8\support-v4-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-fragment:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\2504c5ed5ee9545e92a6ed94245b7109\support-fragment-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\763bcc8922987161353b83ab4da2d617\animated-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:recyclerview-v7:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\32603cb6266624d8adb9fb18c3e354e3\recyclerview-v7-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-ui:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\0e4b8c4d5beadb2d153c0a2ae7561179\support-core-ui-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-core-utils:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\9ebd575325adb4f1715cbd33cc7fb1eb\support-core-utils-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-vector-drawable:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\941c23b8e283edcfbd160b204c678af9\support-vector-drawable-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:transition:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\07d39432c8967fd9e82176e2bdb9c63b\transition-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\2a0428aac82e5d89d4c745f3dd64c959\gifdecoder-4.8.0\AndroidManifest.xml:2:1-11:12
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\6104c576404b17797d5f42ae60105d1d\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.core:runtime:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\7c5e711cb7599bc18a19cc1df98bc8d6\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-media-compat:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\9c0db70b5ab5bab747773bbfa20f7935\support-media-compat-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [com.android.support:support-compat:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\5e395bae4e00ec017ce476404d11e882\support-compat-27.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:runtime:1.1.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\2e39cb929360acecda17a30f51c91155\runtime-1.1.0\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence:db-framework:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\ac81d659485a6c66de7ae6c022e32d0f\db-framework-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.persistence:db:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\29b92e66279317959e74332cc062f32d\db-1.1.1\AndroidManifest.xml:17:1-22:12
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\e29b9d9bab2be31618a2ec772979406c\viewmodel-1.1.0\AndroidManifest.xml:17:1-22:12
-INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:2:1-60:12
-INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:2:1-60:12
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:2:1-61:12
+MERGED from [com.android.support:design:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/660a2690d56c2bfef4bfec42ffcfbdcd/design-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/34555d386a7eb9ea3045ff1382069509/appcompat-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [io.agora.rtc:voice-sdk:2.0.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/e87a8793c6e26e79bc0913009dce2ef4/voice-sdk-2.0.0/AndroidManifest.xml:2:1-15:12
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/fca1e507ec66ebe110d5788d4d2664f1/cardview-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/bb43374553e95a74b846b9d9d8c77eb8/constraint-layout-1.1.2/AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/3445b17b9488f6a687d177acfbd9e668/glide-4.8.0/AndroidManifest.xml:2:1-12:12
+MERGED from [com.github.clans:fab:1.6.4] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/7de47e3b0c7276405496cb35a5a2febd/fab-1.6.4/AndroidManifest.xml:2:1-14:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/11affc0685db3039cae43f3363a706e6/circleimageview-2.1.0/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/855199d21a2457dffd94f776f414402b/livedata-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/d9897c1f98bb236cf80244a836065215/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/86d062dfbc214a96a26e85120520015f/support-v4-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/98ae252499136acc1b719b648cf37a02/support-fragment-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/92f6bd40a5000c8ba369b9b586b9dc2a/animated-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/a80569472a732a3b145ef6efb9ac4e35/recyclerview-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/889cd5312b1c8a80b5f802fedec61c8e/support-core-ui-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/170b8b5178685929da25528d81b6007c/support-core-utils-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/d9f0ccfcd486ba9dee199b5a21775b63/support-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/bbdda2c2eb0b8e3bf6078b14f19fc8b4/transition-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/e4888514ad5c6efb5cacb28920801378/gifdecoder-4.8.0/AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/0c580ad6917269345b415f2689381fa7/livedata-core-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/32c3c3c1ff1572cd4fbf4adc8b2e281b/runtime-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/f09e09e7a1a9b6c5697c87c390be8144/support-media-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/d694d7513e1ca99c176cc55df91d4662/support-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/3760d8ea4fed3bd7e04285d253c1b3a4/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/69a0ac3eaf01ce9ae6e7f5f320e30173/db-framework-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.persistence:db:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/f151d76c949b4dea6fe77dbb082e8ee2/db-1.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/58707b756588e8d18ddbe512adc6dcdf/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:2:1-61:12
+INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:2:1-61:12
 	package
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:4:5-50
-		INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
-		INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:4:5-50
+		INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:2:1-60:12
-		INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:2:1-61:12
+		INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml
 	xmlns:tools
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:3:5-51
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
-		INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:2:1-60:12
-		INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:2:1-61:12
+		INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:6:5-80
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:6:5-80
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:6:22-77
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:6:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:7:5-81
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:7:5-81
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:7:22-78
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:7:22-78
 uses-permission#android.permission.CALL_PHONE
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:8:5-69
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:8:5-69
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:8:22-66
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:8:22-66
 uses-permission#android.permission.INTERNET
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:9:5-67
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:9:5-67
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:9:22-64
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:9:22-64
 uses-permission#android.permission.CAMERA
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:10:5-65
-MERGED from [io.agora.rtc:voice-sdk:2.0.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\3895a62616a96ec0b2e340f256af6edc\voice-sdk-2.0.0\AndroidManifest.xml:11:5-65
-MERGED from [io.agora.rtc:voice-sdk:2.0.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\3895a62616a96ec0b2e340f256af6edc\voice-sdk-2.0.0\AndroidManifest.xml:11:5-65
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:10:5-65
+MERGED from [io.agora.rtc:voice-sdk:2.0.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/e87a8793c6e26e79bc0913009dce2ef4/voice-sdk-2.0.0/AndroidManifest.xml:11:5-65
+MERGED from [io.agora.rtc:voice-sdk:2.0.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/e87a8793c6e26e79bc0913009dce2ef4/voice-sdk-2.0.0/AndroidManifest.xml:11:5-65
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:10:22-62
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:10:22-62
+uses-feature#android.hardware.camera
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:11:5-60
+	android:name
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:11:19-57
 uses-feature#android.hardware.camera.any
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:12:5-14:35
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:13:5-15:35
 	android:required
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:14:9-32
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:15:9-32
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:13:9-51
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:14:9-51
 uses-feature#android.hardware.camera.autofocus
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:15:5-17:36
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:16:5-18:36
 	android:required
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:17:9-33
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:18:9-33
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:16:9-57
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:17:9-57
 application
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:19:5-58:19
-MERGED from [io.agora.rtc:voice-sdk:2.0.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\3895a62616a96ec0b2e340f256af6edc\voice-sdk-2.0.0\AndroidManifest.xml:13:5-20
-MERGED from [io.agora.rtc:voice-sdk:2.0.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\3895a62616a96ec0b2e340f256af6edc\voice-sdk-2.0.0\AndroidManifest.xml:13:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\4c43f906abd2b69edf7da5c5ee7356a3\constraint-layout-1.1.2\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\4c43f906abd2b69edf7da5c5ee7356a3\constraint-layout-1.1.2\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:glide:4.8.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\5f04d3fe801adf8fcd724175f5d9f9e7\glide-4.8.0\AndroidManifest.xml:10:5-20
-MERGED from [com.github.bumptech.glide:glide:4.8.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\5f04d3fe801adf8fcd724175f5d9f9e7\glide-4.8.0\AndroidManifest.xml:10:5-20
-MERGED from [com.github.clans:fab:1.6.4] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\397e8d3d20586c4bdef56307d4106167\fab-1.6.4\AndroidManifest.xml:12:5-20
-MERGED from [com.github.clans:fab:1.6.4] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\397e8d3d20586c4bdef56307d4106167\fab-1.6.4\AndroidManifest.xml:12:5-20
-MERGED from [de.hdodenhof:circleimageview:2.1.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\6e33ef95cf61799d6e2ea838a8eca78a\circleimageview-2.1.0\AndroidManifest.xml:9:5-20
-MERGED from [de.hdodenhof:circleimageview:2.1.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\6e33ef95cf61799d6e2ea838a8eca78a\circleimageview-2.1.0\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\2a0428aac82e5d89d4c745f3dd64c959\gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\2a0428aac82e5d89d4c745f3dd64c959\gifdecoder-4.8.0\AndroidManifest.xml:9:5-20
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:20:5-59:19
+MERGED from [io.agora.rtc:voice-sdk:2.0.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/e87a8793c6e26e79bc0913009dce2ef4/voice-sdk-2.0.0/AndroidManifest.xml:13:5-20
+MERGED from [io.agora.rtc:voice-sdk:2.0.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/e87a8793c6e26e79bc0913009dce2ef4/voice-sdk-2.0.0/AndroidManifest.xml:13:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/bb43374553e95a74b846b9d9d8c77eb8/constraint-layout-1.1.2/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/bb43374553e95a74b846b9d9d8c77eb8/constraint-layout-1.1.2/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/3445b17b9488f6a687d177acfbd9e668/glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/3445b17b9488f6a687d177acfbd9e668/glide-4.8.0/AndroidManifest.xml:10:5-20
+MERGED from [com.github.clans:fab:1.6.4] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/7de47e3b0c7276405496cb35a5a2febd/fab-1.6.4/AndroidManifest.xml:12:5-20
+MERGED from [com.github.clans:fab:1.6.4] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/7de47e3b0c7276405496cb35a5a2febd/fab-1.6.4/AndroidManifest.xml:12:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/11affc0685db3039cae43f3363a706e6/circleimageview-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/11affc0685db3039cae43f3363a706e6/circleimageview-2.1.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/e4888514ad5c6efb5cacb28920801378/gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/e4888514ad5c6efb5cacb28920801378/gifdecoder-4.8.0/AndroidManifest.xml:9:5-20
 	android:supportsRtl
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:25:9-35
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:26:9-35
 	android:label
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:22:9-41
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:23:9-41
 	tools:ignore
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:27:9-48
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:28:9-48
 	android:roundIcon
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:24:9-54
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:25:9-54
 	android:largeHeap
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:23:9-33
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:24:9-33
 	android:icon
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:21:9-43
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:22:9-43
 	android:allowBackup
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:20:9-35
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:21:9-35
 	android:theme
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:26:9-40
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:27:9-40
 activity#com.example.vishistvarugeese.memory.NotesActivity
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:28:9-30:20
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:29:9-31:20
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:28:19-48
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:29:19-48
 activity#com.example.vishistvarugeese.memory.DashboardActivity
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:31:9-33:20
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:32:9-34:20
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:31:19-52
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:32:19-52
 activity#com.example.vishistvarugeese.memory.ProfileActivity
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:34:9-53
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:35:9-53
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:34:19-50
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:35:19-50
 activity#com.example.vishistvarugeese.memory.DetailsActivity
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:35:9-53
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:36:9-53
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:35:19-50
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:36:19-50
 activity#com.example.vishistvarugeese.memory.EmergencyContactActivity
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:36:9-62
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:37:9-62
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:36:19-59
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:37:19-59
 activity#com.example.vishistvarugeese.memory.EditAdd_ContactActivity
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:37:9-61
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:38:9-61
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:37:19-58
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:38:19-58
 activity#com.example.vishistvarugeese.memory.FaceRecognitionActivity
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:38:9-61
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:39:9-61
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:38:19-58
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:39:19-58
 provider#android.support.v4.content.FileProvider
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:40:9-48:20
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:41:9-49:20
 	android:grantUriPermissions
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:44:13-47
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:45:13-47
 	android:authorities
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:42:13-83
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:43:13-83
 	android:exported
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:43:13-37
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:44:13-37
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:41:13-67
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:42:13-67
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:45:13-47:54
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:46:13-48:54
 	android:resource
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:47:17-51
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:48:17-51
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:46:17-67
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:47:17-67
 activity#com.example.vishistvarugeese.memory.SplashActivity
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:50:9-56:20
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:51:9-57:20
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:50:19-49
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:51:19-49
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:51:13-55:29
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:52:13-56:29
 action#android.intent.action.MAIN
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:52:17-69
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:53:17-69
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:52:25-66
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:53:25-66
 category#android.intent.category.LAUNCHER
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:54:17-77
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:55:17-77
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:54:27-74
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:55:27-74
 activity#com.example.vishistvarugeese.memory.IntroSliderActivity
-ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:57:9-57
+ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:58:9-57
 	android:name
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml:57:19-54
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:58:19-54
 uses-sdk
-INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
-INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
-MERGED from [com.android.support:design:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\1a565d561e73523cfde93032b5e4f241\design-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:design:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\1a565d561e73523cfde93032b5e4f241\design-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\96ec3159e9cdafe31c960eb8eede719e\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:appcompat-v7:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\96ec3159e9cdafe31c960eb8eede719e\appcompat-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [io.agora.rtc:voice-sdk:2.0.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\3895a62616a96ec0b2e340f256af6edc\voice-sdk-2.0.0\AndroidManifest.xml:7:5-9:41
-MERGED from [io.agora.rtc:voice-sdk:2.0.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\3895a62616a96ec0b2e340f256af6edc\voice-sdk-2.0.0\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:cardview-v7:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\269ee0dea52177bd7d346753b02cc344\cardview-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\269ee0dea52177bd7d346753b02cc344\cardview-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\4c43f906abd2b69edf7da5c5ee7356a3\constraint-layout-1.1.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support.constraint:constraint-layout:1.1.2] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\4c43f906abd2b69edf7da5c5ee7356a3\constraint-layout-1.1.2\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:glide:4.8.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\5f04d3fe801adf8fcd724175f5d9f9e7\glide-4.8.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.bumptech.glide:glide:4.8.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\5f04d3fe801adf8fcd724175f5d9f9e7\glide-4.8.0\AndroidManifest.xml:6:5-8:41
-MERGED from [com.github.clans:fab:1.6.4] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\397e8d3d20586c4bdef56307d4106167\fab-1.6.4\AndroidManifest.xml:8:5-10:41
-MERGED from [com.github.clans:fab:1.6.4] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\397e8d3d20586c4bdef56307d4106167\fab-1.6.4\AndroidManifest.xml:8:5-10:41
-MERGED from [de.hdodenhof:circleimageview:2.1.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\6e33ef95cf61799d6e2ea838a8eca78a\circleimageview-2.1.0\AndroidManifest.xml:5:5-7:41
-MERGED from [de.hdodenhof:circleimageview:2.1.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\6e33ef95cf61799d6e2ea838a8eca78a\circleimageview-2.1.0\AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.lifecycle:livedata:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\b5f1a18436322a4d6243b4d563cfece4\livedata-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\b5f1a18436322a4d6243b4d563cfece4\livedata-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence.room:runtime:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\24a8895932b1f34b0ccac98ae77a2bed\runtime-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence.room:runtime:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\24a8895932b1f34b0ccac98ae77a2bed\runtime-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\b85946afde5a43ea608eda5eccc7d9e8\support-v4-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-v4:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\b85946afde5a43ea608eda5eccc7d9e8\support-v4-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\2504c5ed5ee9545e92a6ed94245b7109\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-fragment:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\2504c5ed5ee9545e92a6ed94245b7109\support-fragment-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\763bcc8922987161353b83ab4da2d617\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:animated-vector-drawable:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\763bcc8922987161353b83ab4da2d617\animated-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\32603cb6266624d8adb9fb18c3e354e3\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:recyclerview-v7:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\32603cb6266624d8adb9fb18c3e354e3\recyclerview-v7-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\0e4b8c4d5beadb2d153c0a2ae7561179\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-ui:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\0e4b8c4d5beadb2d153c0a2ae7561179\support-core-ui-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\9ebd575325adb4f1715cbd33cc7fb1eb\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-core-utils:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\9ebd575325adb4f1715cbd33cc7fb1eb\support-core-utils-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\941c23b8e283edcfbd160b204c678af9\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\941c23b8e283edcfbd160b204c678af9\support-vector-drawable-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\07d39432c8967fd9e82176e2bdb9c63b\transition-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:transition:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\07d39432c8967fd9e82176e2bdb9c63b\transition-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\2a0428aac82e5d89d4c745f3dd64c959\gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
-MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\2a0428aac82e5d89d4c745f3dd64c959\gifdecoder-4.8.0\AndroidManifest.xml:5:5-7:41
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\6104c576404b17797d5f42ae60105d1d\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:livedata-core:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\6104c576404b17797d5f42ae60105d1d\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\7c5e711cb7599bc18a19cc1df98bc8d6\runtime-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.core:runtime:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\7c5e711cb7599bc18a19cc1df98bc8d6\runtime-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\9c0db70b5ab5bab747773bbfa20f7935\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-media-compat:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\9c0db70b5ab5bab747773bbfa20f7935\support-media-compat-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\5e395bae4e00ec017ce476404d11e882\support-compat-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-compat:27.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\5e395bae4e00ec017ce476404d11e882\support-compat-27.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\2e39cb929360acecda17a30f51c91155\runtime-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:runtime:1.1.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\2e39cb929360acecda17a30f51c91155\runtime-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db-framework:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\ac81d659485a6c66de7ae6c022e32d0f\db-framework-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db-framework:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\ac81d659485a6c66de7ae6c022e32d0f\db-framework-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\29b92e66279317959e74332cc062f32d\db-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.persistence:db:1.1.1] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\29b92e66279317959e74332cc062f32d\db-1.1.1\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\e29b9d9bab2be31618a2ec772979406c\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
-MERGED from [android.arch.lifecycle:viewmodel:1.1.0] G:\Softwares\Android\Android\.gradle\caches\transforms-2\files-2.1\e29b9d9bab2be31618a2ec772979406c\viewmodel-1.1.0\AndroidManifest.xml:20:5-44
-INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
-INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
+INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml
+INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:design:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/660a2690d56c2bfef4bfec42ffcfbdcd/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/660a2690d56c2bfef4bfec42ffcfbdcd/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/34555d386a7eb9ea3045ff1382069509/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/34555d386a7eb9ea3045ff1382069509/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [io.agora.rtc:voice-sdk:2.0.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/e87a8793c6e26e79bc0913009dce2ef4/voice-sdk-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [io.agora.rtc:voice-sdk:2.0.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/e87a8793c6e26e79bc0913009dce2ef4/voice-sdk-2.0.0/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/fca1e507ec66ebe110d5788d4d2664f1/cardview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/fca1e507ec66ebe110d5788d4d2664f1/cardview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/bb43374553e95a74b846b9d9d8c77eb8/constraint-layout-1.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.2] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/bb43374553e95a74b846b9d9d8c77eb8/constraint-layout-1.1.2/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/3445b17b9488f6a687d177acfbd9e668/glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.8.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/3445b17b9488f6a687d177acfbd9e668/glide-4.8.0/AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.clans:fab:1.6.4] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/7de47e3b0c7276405496cb35a5a2febd/fab-1.6.4/AndroidManifest.xml:8:5-10:41
+MERGED from [com.github.clans:fab:1.6.4] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/7de47e3b0c7276405496cb35a5a2febd/fab-1.6.4/AndroidManifest.xml:8:5-10:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/11affc0685db3039cae43f3363a706e6/circleimageview-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/11affc0685db3039cae43f3363a706e6/circleimageview-2.1.0/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/855199d21a2457dffd94f776f414402b/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/855199d21a2457dffd94f776f414402b/livedata-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/d9897c1f98bb236cf80244a836065215/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence.room:runtime:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/d9897c1f98bb236cf80244a836065215/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/86d062dfbc214a96a26e85120520015f/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/86d062dfbc214a96a26e85120520015f/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/98ae252499136acc1b719b648cf37a02/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/98ae252499136acc1b719b648cf37a02/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/92f6bd40a5000c8ba369b9b586b9dc2a/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/92f6bd40a5000c8ba369b9b586b9dc2a/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/a80569472a732a3b145ef6efb9ac4e35/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/a80569472a732a3b145ef6efb9ac4e35/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/889cd5312b1c8a80b5f802fedec61c8e/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/889cd5312b1c8a80b5f802fedec61c8e/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/170b8b5178685929da25528d81b6007c/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/170b8b5178685929da25528d81b6007c/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/d9f0ccfcd486ba9dee199b5a21775b63/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/d9f0ccfcd486ba9dee199b5a21775b63/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/bbdda2c2eb0b8e3bf6078b14f19fc8b4/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/bbdda2c2eb0b8e3bf6078b14f19fc8b4/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/e4888514ad5c6efb5cacb28920801378/gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.8.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/e4888514ad5c6efb5cacb28920801378/gifdecoder-4.8.0/AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/0c580ad6917269345b415f2689381fa7/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/0c580ad6917269345b415f2689381fa7/livedata-core-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/32c3c3c1ff1572cd4fbf4adc8b2e281b/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/32c3c3c1ff1572cd4fbf4adc8b2e281b/runtime-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/f09e09e7a1a9b6c5697c87c390be8144/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/f09e09e7a1a9b6c5697c87c390be8144/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/d694d7513e1ca99c176cc55df91d4662/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/d694d7513e1ca99c176cc55df91d4662/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/3760d8ea4fed3bd7e04285d253c1b3a4/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/3760d8ea4fed3bd7e04285d253c1b3a4/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/69a0ac3eaf01ce9ae6e7f5f320e30173/db-framework-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db-framework:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/69a0ac3eaf01ce9ae6e7f5f320e30173/db-framework-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/f151d76c949b4dea6fe77dbb082e8ee2/db-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.persistence:db:1.1.1] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/f151d76c949b4dea6fe77dbb082e8ee2/db-1.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/58707b756588e8d18ddbe512adc6dcdf/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/vishistv/.gradle/caches/transforms-2/files-2.1/58707b756588e8d18ddbe512adc6dcdf/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml
+INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
-		INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
-		ADDED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
-		INJECTED from G:\Mobile Apps\Memory\app\src\main\AndroidManifest.xml
+		INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml
+		ADDED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml

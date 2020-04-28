@@ -926,6 +926,7 @@ drawable ic_menu_blue_24px
 drawable ic_my_location_black_24dp
 drawable ic_no_face
 drawable ic_note_add_blue_24dp
+drawable ic_note_add_white_24dp
 drawable ic_person_add_black_24dp
 drawable ic_person_blue_24dp
 drawable ic_profile_24dp
@@ -1118,6 +1119,7 @@ id noFacesRegisteredLayout
 id no_contacts
 id none
 id normal
+id notes
 id notes_nav
 id notification_background
 id notification_main_column

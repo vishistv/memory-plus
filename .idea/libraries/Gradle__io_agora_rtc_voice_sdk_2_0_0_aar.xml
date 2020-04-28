@@ -1,8 +1,8 @@
 <component name="libraryTable">
   <library name="Gradle: io.agora.rtc:voice-sdk:2.0.0@aar">
     <CLASSES>
-      <root url="jar://$APPLICATION_HOME_DIR$/Android/.gradle/caches/transforms-2/files-2.1/3895a62616a96ec0b2e340f256af6edc/voice-sdk-2.0.0/jars/classes.jar!/" />
-      <root url="file://$APPLICATION_HOME_DIR$/Android/.gradle/caches/transforms-2/files-2.1/3895a62616a96ec0b2e340f256af6edc/voice-sdk-2.0.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/26fc844e1e590d8f160ad4c2db1eb91f/voice-sdk-2.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/26fc844e1e590d8f160ad4c2db1eb91f/voice-sdk-2.0.0/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

@@ -59,7 +59,7 @@
         android:layout_width="0dp"
         android:layout_height="1dp"
         android:layout_marginTop="10dp"
-        android:background="@color/dot_dark_screen2"
+        android:background="@color/grey2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/et_dialog_note" />

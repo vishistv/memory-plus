@@ -84,7 +84,7 @@
                     android:layout_height="wrap_content"
                     android:orientation="horizontal">
 
-                    <ImageView
+                    <de.hdodenhof.circleimageview.CircleImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
                         android:src="@drawable/dp"/>
@@ -142,7 +142,7 @@
                         android:textSize="17dp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Currently developing an app"/>
+                        android:text="Developing this stupid app as my final year project."/>
 
                 </LinearLayout>
 
@@ -243,7 +243,7 @@
                         android:layout_height="wrap_content"
                         android:text="01/01/1998"
                         android:fontFamily="@font/crimsontext_regular"
-                        android:textSize="17dp"
+                        android:textSize="17sp"
                         android:textColor="@color/colorBlack"
                         android:layout_gravity="center"/>
 
@@ -270,17 +270,16 @@
                     android:layout_height="wrap_content"
                     android:text="Description: "
                     android:fontFamily="@font/crimsontext_regular"
-                    android:textSize="15dp"
+                    android:textSize="15sp"
                     android:textColor="@color/grey3" />
 
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Ginger, short hair neatly coiffured to reveal a lean, menacing face. Darting green eyes, set delicately within their sockets, watch vigorously over the families they've grieved with for so long. A moustache and goatee elegantly compliments his nose and leaves an intriguing memory of his fortunate upbringing. This is the face of Jamal Davenport, a true dreamer among giants. He stands alluringly among others, despite his scraggy frame."
+                    android:text="This is an example paragraph. This is an example paragraph. This is an example paragraph. This is an example paragraph. This is an example paragraph. This is an example paragraph. This is an example paragraph. This is an example paragraph. This is an example paragraph. This is an example paragraph. This is an example paragraph."
                     android:fontFamily="@font/crimsontext_regular"
-                    android:textSize="17dp"
-                    android:textColor="@color/colorBlack"
-                    android:layout_gravity="center"/>
+                    android:textSize="17sp"
+                    android:textColor="@color/colorBlack" />
 
             </LinearLayout>
 
