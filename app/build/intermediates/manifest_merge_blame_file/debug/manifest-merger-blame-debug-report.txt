@@ -57,67 +57,68 @@
 31-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:25:9-54
 32        android:supportsRtl="true"
 32-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:26:9-35
-33        android:theme="@style/AppTheme" >
-33-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:27:9-40
-34        <activity android:name="com.example.vishistvarugeese.memory.NotesActivity" >
-34-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:29:9-31:20
-34-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:29:19-48
-35        </activity>
-36        <activity android:name="com.example.vishistvarugeese.memory.DashboardActivity" >
-36-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:32:9-34:20
-36-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:32:19-52
-37        </activity>
-38        <activity android:name="com.example.vishistvarugeese.memory.ProfileActivity" />
-38-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:35:9-53
-38-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:35:19-50
-39        <activity android:name="com.example.vishistvarugeese.memory.DetailsActivity" />
-39-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:36:9-53
-39-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:36:19-50
-40        <activity android:name="com.example.vishistvarugeese.memory.EmergencyContactActivity" />
-40-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:37:9-62
-40-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:37:19-59
-41        <activity android:name="com.example.vishistvarugeese.memory.EditAdd_ContactActivity" />
-41-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:38:9-61
-41-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:38:19-58
-42        <activity android:name="com.example.vishistvarugeese.memory.FaceRecognitionActivity" />
-42-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:39:9-61
-42-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:39:19-58
-43
-44        <provider
-44-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:41:9-49:20
-45            android:name="android.support.v4.content.FileProvider"
-45-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:42:13-67
-46            android:authorities="com.example.vishistvarugeese.memory.fileprovider"
-46-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:43:13-83
-47            android:exported="false"
-47-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:44:13-37
-48            android:grantUriPermissions="true" >
-48-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:45:13-47
-49            <meta-data
-49-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:46:13-48:54
-50                android:name="android.support.FILE_PROVIDER_PATHS"
-50-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:47:17-67
-51                android:resource="@xml/file_paths" />
-51-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:48:17-51
-52        </provider>
-53
-54        <activity android:name="com.example.vishistvarugeese.memory.SplashActivity" >
-54-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:51:9-57:20
-54-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:51:19-49
-55            <intent-filter>
-55-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:52:13-56:29
-56                <action android:name="android.intent.action.MAIN" />
-56-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:53:17-69
-56-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:53:25-66
-57
-58                <category android:name="android.intent.category.LAUNCHER" />
-58-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:55:17-77
-58-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:55:27-74
-59            </intent-filter>
-60        </activity>
-61        <activity android:name="com.example.vishistvarugeese.memory.IntroSliderActivity" />
-61-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:58:9-57
-61-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:58:19-54
-62    </application>
-63
-64</manifest>
+33        android:testOnly="true"
+34        android:theme="@style/AppTheme" >
+34-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:27:9-40
+35        <activity android:name="com.example.vishistvarugeese.memory.notes.NotesActivity" >
+35-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:29:9-31:20
+35-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:29:19-54
+36        </activity>
+37        <activity android:name="com.example.vishistvarugeese.memory.dashboard.DashboardActivity" >
+37-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:32:9-34:20
+37-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:32:19-62
+38        </activity>
+39        <activity android:name="com.example.vishistvarugeese.memory.profile.ProfileActivity" />
+39-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:35:9-61
+39-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:35:19-58
+40        <activity android:name="com.example.vishistvarugeese.memory.profile.DetailsActivity" />
+40-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:36:9-61
+40-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:36:19-58
+41        <activity android:name="com.example.vishistvarugeese.memory.contacts.EmergencyContactActivity" />
+41-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:37:9-71
+41-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:37:19-68
+42        <activity android:name="com.example.vishistvarugeese.memory.contacts.EditAddContactActivity" />
+42-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:38:9-69
+42-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:38:19-66
+43        <activity android:name="com.example.vishistvarugeese.memory.faceRecognition.FaceRecognitionActivity" />
+43-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:39:9-77
+43-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:39:19-74
+44
+45        <provider
+45-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:41:9-49:20
+46            android:name="android.support.v4.content.FileProvider"
+46-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:42:13-67
+47            android:authorities="com.example.vishistvarugeese.memory.fileprovider"
+47-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:43:13-83
+48            android:exported="false"
+48-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:44:13-37
+49            android:grantUriPermissions="true" >
+49-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:45:13-47
+50            <meta-data
+50-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:46:13-48:54
+51                android:name="android.support.FILE_PROVIDER_PATHS"
+51-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:47:17-67
+52                android:resource="@xml/file_paths" />
+52-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:48:17-51
+53        </provider>
+54
+55        <activity android:name="com.example.vishistvarugeese.memory.dashboard.SplashActivity" >
+55-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:51:9-57:20
+55-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:51:19-59
+56            <intent-filter>
+56-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:52:13-56:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:53:17-69
+57-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:53:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:55:17-77
+59-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:55:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity android:name="com.example.vishistvarugeese.memory.dashboard.IntroSliderActivity" />
+62-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:58:9-67
+62-->/Users/vishistv/Documents/my-projects/memory-plus/app/src/main/AndroidManifest.xml:58:19-64
+63    </application>
+64
+65</manifest>

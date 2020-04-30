@@ -50,7 +50,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:fitsSystemWindows="true"
-        tools:context=".DashboardActivity">
+        tools:context=".dashboard.DashboardActivity">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -113,7 +113,7 @@
                         android:background="@drawable/custom_round_button"
                         android:fontFamily="@font/crimsontext_regular"
                         android:minHeight="0dp"
-                        android:onClick="OnProfileClick"
+                        android:onClick="onProfileClick"
                         android:paddingBottom="5dp"
                         android:paddingLeft="20dp"
                         android:paddingRight="20dp"
@@ -148,7 +148,7 @@
                         android:background="@drawable/custom_round_button"
                         android:fontFamily="@font/crimsontext_regular"
                         android:minHeight="0dp"
-                        android:onClick="OnEmergencyContactClick"
+                        android:onClick="onEmergencyContactClick"
                         android:stateListAnimator="@null"
                         android:paddingBottom="5dp"
                         android:paddingLeft="20dp"
@@ -183,7 +183,7 @@
                         android:background="@drawable/custom_round_button"
                         android:fontFamily="@font/crimsontext_regular"
                         android:minHeight="0dp"
-                        android:onClick="OnIdentifyPeopleClick"
+                        android:onClick="onIdentifyPeopleClick"
                         android:paddingBottom="5dp"
                         android:paddingLeft="20dp"
                         android:stateListAnimator="@null"
@@ -218,7 +218,7 @@
                         android:background="@drawable/custom_round_button"
                         android:fontFamily="@font/crimsontext_regular"
                         android:minHeight="0dp"
-                        android:onClick="OnNotesClick"
+                        android:onClick="onNotesClick"
                         android:paddingBottom="5dp"
                         android:paddingLeft="20dp"
                         android:stateListAnimator="@null"
@@ -254,7 +254,7 @@
 
             <com.github.clans.fab.FloatingActionButton
                 android:id="@+id/profile"
-                android:onClick="OnProfileClick"
+                android:onClick="onProfileClick"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_profile_24dp"
@@ -264,7 +264,7 @@
 
             <com.github.clans.fab.FloatingActionButton
                 android:id="@+id/speed_dial"
-                android:onClick="OnEmergencyContactClick"
+                android:onClick="onEmergencyContactClick"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:src="@drawable/ic_speed_dial_24dp"
@@ -276,7 +276,7 @@
                 android:id="@+id/face_recognition"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="OnIdentifyPeopleClick"
+                android:onClick="onIdentifyPeopleClick"
                 android:src="@drawable/ic_face_recognition_24dp"
                 fab:fab_size="mini"
                 fab:fab_label="Identify People"
@@ -286,7 +286,7 @@
                 android:id="@+id/notes"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:onClick="OnNotesClick"
+                android:onClick="onNotesClick"
                 android:src="@drawable/ic_note_add_white_24dp"
                 fab:fab_size="mini"
                 fab:fab_label="My Notes"

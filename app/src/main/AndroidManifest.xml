@@ -26,17 +26,17 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".NotesActivity">
+        <activity android:name=".notes.NotesActivity">
 
         </activity>
-        <activity android:name=".DashboardActivity">
+        <activity android:name=".dashboard.DashboardActivity">
 
         </activity>
-        <activity android:name=".ProfileActivity" />
-        <activity android:name=".DetailsActivity" />
-        <activity android:name=".EmergencyContactActivity" />
-        <activity android:name=".EditAdd_ContactActivity" />
-        <activity android:name=".FaceRecognitionActivity" />
+        <activity android:name=".profile.ProfileActivity" />
+        <activity android:name=".profile.DetailsActivity" />
+        <activity android:name=".contacts.EmergencyContactActivity" />
+        <activity android:name=".contacts.EditAddContactActivity" />
+        <activity android:name=".faceRecognition.FaceRecognitionActivity" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -48,14 +48,14 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-        <activity android:name=".SplashActivity">
+        <activity android:name=".dashboard.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".IntroSliderActivity" />
+        <activity android:name=".dashboard.IntroSliderActivity" />
     </application>
 
 </manifest>

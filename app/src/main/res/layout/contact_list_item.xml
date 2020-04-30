@@ -1,36 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:weightSum="1"
-    android:background="?attr/selectableItemBackground"
     android:id="@+id/item"
-    android:orientation="vertical"
+    android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    >
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:weightSum="1">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingTop="20dp"
         android:paddingLeft="20dp"
+        android:paddingTop="20dp"
         android:paddingRight="10dp"
         android:paddingBottom="10dp">
 
         <LinearLayout
-            android:layout_weight="0.19"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_weight="0.19"
             android:gravity="center">
 
             <!--<ImageView-->
-                <!--android:id="@+id/iv_contact_image"-->
-                <!--android:layout_width="50dp"-->
-                <!--android:layout_height="50dp"-->
-                <!--android:src="@drawable/four"-->
-                <!--android:scaleType="fitXY"/>-->
+            <!--android:id="@+id/iv_contact_image"-->
+            <!--android:layout_width="50dp"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:src="@drawable/four"-->
+            <!--android:scaleType="fitXY"/>-->
 
             <de.hdodenhof.circleimageview.CircleImageView
                 android:id="@+id/iv_contact_image"
@@ -44,51 +42,51 @@
 
 
         <LinearLayout
-            android:layout_weight="0.71"
-            android:gravity="center_vertical"
-            android:layout_marginLeft="10dp"
             android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_weight="0.71"
+            android:gravity="center_vertical"
             android:orientation="vertical">
 
             <TextView
-                android:lineSpacingExtra="0dp"
-                android:includeFontPadding="false"
-                android:layout_marginBottom="-3dp"
-                android:orientation="vertical"
-                android:textColor="@color/colorBlack"
+                android:id="@+id/tv_contact_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="-3dp"
                 android:fontFamily="@font/crimsontext_regular"
-                android:textStyle="bold"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="0dp"
+                android:orientation="vertical"
                 android:text="Name"
+                android:textColor="@color/colorBlack"
                 android:textSize="20dp"
-                android:id="@+id/tv_contact_name"/>
+                android:textStyle="bold" />
 
             <TextView
-                android:layout_marginBottom="-3dp"
-                android:lineSpacingExtra="0dp"
-                android:includeFontPadding="false"
-                android:orientation="vertical"
+                android:id="@+id/tv_contact_number"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="-3dp"
                 android:fontFamily="@font/crimsontext_regular"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="0dp"
+                android:orientation="vertical"
                 android:text="+0123456789"
                 android:textColor="@color/grey4"
-                android:textSize="16dp"
-                android:id="@+id/tv_contact_number"/>
+                android:textSize="16dp" />
 
             <TextView
-                android:lineSpacingExtra="0dp"
-                android:includeFontPadding="false"
-                android:orientation="vertical"
+                android:id="@+id/tv_contact_email"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:fontFamily="@font/crimsontext_regular"
+                android:includeFontPadding="false"
+                android:lineSpacingExtra="0dp"
+                android:orientation="vertical"
                 android:text="abc@xyz.com"
                 android:textColor="@color/grey4"
-                android:textSize="16dp"
-                android:id="@+id/tv_contact_email"/>
+                android:textSize="16dp" />
 
         </LinearLayout>
 
@@ -98,18 +96,18 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center_vertical"
-            android:scaleType="center"
             android:layout_weight="0.1"
-            android:src="@drawable/ic_menu_blue_24px"/>
+            android:scaleType="center"
+            android:src="@drawable/ic_menu_blue_24px" />
 
     </LinearLayout>
 
     <View
-        android:layout_marginLeft="40dp"
-        android:layout_marginRight="40dp"
         android:layout_width="match_parent"
         android:layout_height="0.5dp"
-        android:background="@color/grey3"/>
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:background="@color/grey3" />
 
 
 </LinearLayout>

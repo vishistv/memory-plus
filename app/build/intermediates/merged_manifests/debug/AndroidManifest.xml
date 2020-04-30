@@ -30,16 +30,17 @@
         android:largeHeap="true"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
-        <activity android:name="com.example.vishistvarugeese.memory.NotesActivity" >
+        <activity android:name="com.example.vishistvarugeese.memory.notes.NotesActivity" >
         </activity>
-        <activity android:name="com.example.vishistvarugeese.memory.DashboardActivity" >
+        <activity android:name="com.example.vishistvarugeese.memory.dashboard.DashboardActivity" >
         </activity>
-        <activity android:name="com.example.vishistvarugeese.memory.ProfileActivity" />
-        <activity android:name="com.example.vishistvarugeese.memory.DetailsActivity" />
-        <activity android:name="com.example.vishistvarugeese.memory.EmergencyContactActivity" />
-        <activity android:name="com.example.vishistvarugeese.memory.EditAdd_ContactActivity" />
-        <activity android:name="com.example.vishistvarugeese.memory.FaceRecognitionActivity" />
+        <activity android:name="com.example.vishistvarugeese.memory.profile.ProfileActivity" />
+        <activity android:name="com.example.vishistvarugeese.memory.profile.DetailsActivity" />
+        <activity android:name="com.example.vishistvarugeese.memory.contacts.EmergencyContactActivity" />
+        <activity android:name="com.example.vishistvarugeese.memory.contacts.EditAddContactActivity" />
+        <activity android:name="com.example.vishistvarugeese.memory.faceRecognition.FaceRecognitionActivity" />
 
         <provider
             android:name="android.support.v4.content.FileProvider"
@@ -51,14 +52,14 @@
                 android:resource="@xml/file_paths" />
         </provider>
 
-        <activity android:name="com.example.vishistvarugeese.memory.SplashActivity" >
+        <activity android:name="com.example.vishistvarugeese.memory.dashboard.SplashActivity" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name="com.example.vishistvarugeese.memory.IntroSliderActivity" />
+        <activity android:name="com.example.vishistvarugeese.memory.dashboard.IntroSliderActivity" />
     </application>
 
 </manifest>

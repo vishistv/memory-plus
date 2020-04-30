@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".EditAdd_ContactActivity">
+    tools:context=".contacts.EditAddContactActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
@@ -25,7 +25,7 @@
                 android:id="@+id/ib_back_button"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:onClick="onBackPressed"
+                android:onClick="onBackButtonPressed"
                 android:src="@drawable/ic_keyboard_arrow_left_blue_24dp"
                 android:background="?selectableItemBackgroundBorderless"
                 />

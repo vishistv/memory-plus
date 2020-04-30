@@ -33,7 +33,7 @@
         android:layout_marginEnd="40dp"
         android:fontFamily="@font/crimsontext_regular"
         android:scrollbars="vertical"
-        android:lines="15"
+        android:maxHeight="400dp"
         android:text="Ginger, short hair neatly coiffured to reveal a lean, menacing face. Darting green eyes, set delicately within their sockets, watch vigorously over the families they've grieved with for so long. A moustache and goatee elegantly compliments his nose and leaves an intriguing memory of his fortunate upbringing. This is the face of Jamal Davenport, a true dreamer among giants. He stands alluringly among others, despite his scraggy frame."
         android:textColor="@color/dot_dark_screen2"
         android:textSize="18sp"
