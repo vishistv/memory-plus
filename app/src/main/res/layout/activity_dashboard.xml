@@ -9,7 +9,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.v7.widget.Toolbar
+    <androidx.appcompat.widget.Toolbar
         android:id="@+id/toolbar"
         android:layout_height="wrap_content"
         android:layout_width="match_parent"
@@ -37,14 +37,14 @@
             android:id="@+id/toolbar_plus" />
 
 
-    </android.support.v7.widget.Toolbar>
+    </androidx.appcompat.widget.Toolbar>
 
     <View
         android:layout_width="match_parent"
         android:layout_height="1dp"
         android:background="@color/grey1"/>
 
-    <android.support.v4.widget.DrawerLayout
+    <androidx.drawerlayout.widget.DrawerLayout
         android:id="@+id/drawer"
         android:background="@color/colorWhite"
         android:layout_width="match_parent"
@@ -294,7 +294,7 @@
 
         </com.github.clans.fab.FloatingActionMenu>
 
-        <android.support.design.widget.NavigationView
+        <com.google.android.material.navigation.NavigationView
             android:id="@+id/navgation"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
@@ -304,6 +304,6 @@
             android:scrollbars="vertical"
             android:layout_gravity="start" />
 
-    </android.support.v4.widget.DrawerLayout>
+    </androidx.drawerlayout.widget.DrawerLayout>
 
 </LinearLayout>

@@ -4,20 +4,21 @@ import android.app.Activity
 import android.content.Intent
 import android.graphics.BitmapFactory
 import android.graphics.drawable.BitmapDrawable
+import android.net.Uri
 import android.os.Bundle
-import android.support.v7.app.AppCompatActivity
+import androidx.appcompat.app.AppCompatActivity
 import android.view.View
+import androidx.lifecycle.ViewModelProvider
 import com.example.vishistvarugeese.memory.R
 import kotlinx.android.synthetic.main.activity_edit_add__contact.*
+import kotlinx.coroutines.selects.select
 import java.io.IOException
 
 class EditAddContactActivity : AppCompatActivity() {
-    private var contactName: String? = null
-    private var contactPhonenumber: String? = null
-    private var contactEmail: String? = null
-    private val GALLERY_REQUEST_CODE = 1
 
-    private var db: SQLiteHandler? = null
+    private val GALLERY_REQUEST_CODE = 1
+    private lateinit var mContactsViewModel: ContactsViewModel
+
     var i: Intent? = null
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -26,8 +27,8 @@ class EditAddContactActivity : AppCompatActivity() {
         overridePendingTransition(R.anim.right_to_left_slide_in, R.anim.right_to_left_slide_out)
         val intent = intent
         val i = intent.getIntExtra("ADD", 0)
+        mContactsViewModel = ViewModelProvider(this).get(ContactsViewModel::class.java)
 
-        db = SQLiteHandler(applicationContext)
 
         //ONLY FOR TESTING
 //        et_contact_set_name.setText("Rahul Varma");
@@ -45,11 +46,11 @@ class EditAddContactActivity : AppCompatActivity() {
     }
 
     fun onEditAddContact(view: View?) {
-        contactName = et_contact_set_name?.text.toString()
-        contactPhonenumber = et_contact_set_phoneNumber?.text.toString()
-        contactEmail = et_contact_set_email?.text.toString()
+        val contactName = et_contact_set_name?.text.toString()
+        val contactPhonenumber = et_contact_set_phoneNumber?.text.toString()
+        val contactEmail = et_contact_set_email?.text.toString()
         val image = (iv_contact_set_image?.drawable as BitmapDrawable).bitmap
-        db?.addContacts(ContactDetails(contactName, contactPhonenumber, contactEmail, image))
+        mContactsViewModel.insert(Contacts(contactName, contactPhonenumber, contactEmail, ContactsHelper.bitmapToString(image)))
         setResult(1000)
         onBackPressed()
     }
@@ -65,10 +66,12 @@ class EditAddContactActivity : AppCompatActivity() {
         super.onActivityResult(requestCode, resultCode, data)
         if (resultCode == Activity.RESULT_OK && requestCode == GALLERY_REQUEST_CODE && data != null) {
             try {
-                val selectedImage = data.data
-                val imageStream = contentResolver.openInputStream(selectedImage)
-                iv_contact_set_image?.setImageBitmap(BitmapFactory.decodeStream(imageStream))
-                iv_contact_set_image?.tag = "image_set"
+                data.data?.let {
+                    val selectedImage: Uri = it
+                    val imageStream = contentResolver.openInputStream(selectedImage)
+                    iv_contact_set_image?.setImageBitmap(BitmapFactory.decodeStream(imageStream))
+                    iv_contact_set_image?.tag = "image_set"
+                }
             } catch (exception: IOException) {
                 exception.printStackTrace()
             }

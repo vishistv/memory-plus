@@ -3,10 +3,10 @@ package com.example.vishistvarugeese.memory.dashboard
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
-import android.support.design.widget.NavigationView
-import android.support.v7.app.ActionBar
-import android.support.v7.app.ActionBarDrawerToggle
-import android.support.v7.app.AppCompatActivity
+import com.google.android.material.navigation.NavigationView
+import androidx.appcompat.app.ActionBar
+import androidx.appcompat.app.ActionBarDrawerToggle
+import androidx.appcompat.app.AppCompatActivity
 import android.view.MenuItem
 import android.view.View
 import android.view.animation.Animation
