@@ -11,7 +11,9 @@ import androidx.recyclerview.widget.LinearLayoutManager
 import android.text.method.ScrollingMovementMethod
 import android.util.Log
 import android.view.View
+import androidx.lifecycle.ViewModelProvider
 import com.example.vishistvarugeese.memory.R
+import com.example.vishistvarugeese.memory.contacts.ContactsViewModel
 import com.example.vishistvarugeese.memory.notes.NotesAdapter.OnNoteListener
 import kotlinx.android.synthetic.main.activity_notes.*
 import kotlinx.android.synthetic.main.note_dialog.*
@@ -23,22 +25,23 @@ class NotesActivity : AppCompatActivity(), OnNoteListener {
     private var mNotesList = ArrayList<Note>()
     private var mNotesAdapter: NotesAdapter? = null
     private var mOnNoteListener: OnNoteListener? = null
+    private lateinit var mNoteViewModel: NoteViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_notes)
         overridePendingTransition(R.anim.right_to_left_slide_in, R.anim.right_to_left_slide_out)
 
+        mNoteViewModel = ViewModelProvider(this).get(NoteViewModel::class.java)
+
         rv_notes.layoutManager = LinearLayoutManager(this)
         mOnNoteListener = this
-        val noteRepository = NoteRepository()
-        noteRepository.getAllNotes(applicationContext)?.observe(this, Observer { notes ->
-            notes?.let {
-                if (notes.isNotEmpty()) {
-                    mNotesList = ArrayList(notes)
-                    mNotesAdapter = NotesAdapter(mOnNoteListener, mNotesList)
-                    rv_notes?.adapter = mNotesAdapter
-                }
+
+        mNoteViewModel.allNote.observe(this, Observer { notes ->
+            if (notes.isNotEmpty()) {
+                mNotesList = ArrayList(notes)
+                mNotesAdapter = NotesAdapter(mOnNoteListener, mNotesList)
+                rv_notes?.adapter = mNotesAdapter
             }
         })
     }
@@ -58,8 +61,7 @@ class NotesActivity : AppCompatActivity(), OnNoteListener {
             note.title = title
             note.description = description
             note.timestamp = timestamp
-            val noteRepository = NoteRepository()
-            noteRepository.insertNote(note, applicationContext)
+            mNoteViewModel.insert(note)
             mNotesList.add(note)
             if (mNotesAdapter == null) {
                 mNotesAdapter = NotesAdapter(mOnNoteListener, mNotesList)
@@ -83,12 +85,11 @@ class NotesActivity : AppCompatActivity(), OnNoteListener {
             val title = dialog.et_dialog_title.text.toString()
             val description = dialog.et_dialog_note.text.toString()
             val timestamp = SimpleDateFormat("d MMM yyyy h:mm a").format(Date())
-            val noteRepository = NoteRepository()
             val note = Note()
             note.title = title
             note.description = description
             note.timestamp = timestamp
-            noteRepository.updateNote(title, description, timestamp, id, applicationContext)
+            mNoteViewModel.update(title, description, timestamp, id)
             mNotesList[position] = note
             mNotesAdapter?.notifyDataSetChanged()
             dialog.dismiss()
@@ -118,8 +119,7 @@ class NotesActivity : AppCompatActivity(), OnNoteListener {
             dialog.dismiss()
         }
         dialog.iv_note_dialog_delete.setOnClickListener {
-            val noteRepository = NoteRepository()
-            noteRepository.deleteNote(id, applicationContext)
+            mNoteViewModel.delete(id)
             mNotesList.removeAt(position)
             mNotesAdapter?.notifyDataSetChanged()
             dialog.dismiss()

@@ -36,7 +36,7 @@ class NotesAdapter(onNoteListener: OnNoteListener?, notesList: ArrayList<Note>) 
 
     inner class ViewHolder(itemView: View, onNoteListener: OnNoteListener?) : RecyclerView.ViewHolder(itemView), View.OnClickListener {
 
-        var onNoteListener = onNoteListener.let {
+        private var onNoteListener = onNoteListener.let {
             it
         }
 
